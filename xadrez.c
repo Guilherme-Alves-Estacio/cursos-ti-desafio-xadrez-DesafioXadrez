@@ -4,10 +4,11 @@
 // Este código inicial serve como base para o desenvolvimento do sistema de movimentação das peças de xadrez.
 // O objetivo é utilizar estruturas de repetição e funções para determinar os limites de movimentação dentro do jogo.
 
-int main() {
+int main()
+{
     // Nível Novato - Movimentação das Peças
-    
-   // Torre
+
+    // Torre
     int i;
     for (i = 0; i < 5; i++)
     {
@@ -34,6 +35,20 @@ int main() {
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
     // Um loop pode representar a movimentação horizontal e outro vertical.
+
+    // Cavalo
+
+    int c = 0;
+
+    while (c < 2)
+    {
+        for (c; c < 2; c++)
+        {
+            printf("Movimento do Cavalo: Baixo\n");
+        }
+
+        printf("Movimento do Cavalo: Esquerda\n");
+    }
 
     // Nível Mestre - Funções Recursivas e Loops Aninhados
     // Sugestão: Substitua as movimentações das peças por funções recursivas.
